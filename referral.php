@@ -77,12 +77,9 @@ class Referral
     }
 
     function display_referral_element()
-    {
-?>
+    { ?>
         <input type="number" name="referral" id="referral" value="<?php echo get_option('referral'); ?>" />
-    <?php
-    }
-
+    <?php    }
 
     function theme_settings_page()
     {
